@@ -1,0 +1,44 @@
+// article_2012-03.txt
+:lang: fr
+= AsciiDoc vite fait pour créer des documents XHTML
+Fictif Lefous <fictif.lefous@la-bas.ici>
+version 1.0, février 2012: Commentaire de version avec ou sans marqueur Git.
+
+Ac dolor ac adipiscing amet bibendum nullam, massa lacus molestie ut
+libero nec, diam et, pharetra sodales eget.
+
+== Section
+Maecenas aliquam maecenas ligula nostra, accumsan taciti.
+
+=== Sous-section
+Nisl rhoncus turpis est, vel elit, congue _wisi_ enim nunc
+ultricies sit, magna tincidunt.
+
+* Quam etiam erat
+* Suspendisse morbi
+
+TIP: Tortor vitae tortor eros wisi facilisis.
+
+=== Ligula suspendisse nulla pretium
+Consectetuer arcu ipsum ornare *pellentesque* vehicula, in vehicula
+diam, ornare magna erat felis wisi a risus.
+
+.Liste des trenza uf efed
+[options="header",width="60%",align="center",cols="^,^,^"]
+|====================================
+|Loren       |Dolor    | Cillum
+| velit esse |Est neque| 31 mars 2031
+|iumm improb |Et imper | 14 mai 2014
+|====================================
+
+Justo fermentum id. Malesuada eleifend, tortor molestie, a fusce a
+vel et. Mauris at suspendisse, neque aliquam +faucibus+ adipiscing,
+vivamus in.
+
+link:dir/test.html[Docs]
+
+.Titre lacus vestibulum
+====
+Voici l'exemple enim eros in vel
+====
+gherkin::./simple.feature[]

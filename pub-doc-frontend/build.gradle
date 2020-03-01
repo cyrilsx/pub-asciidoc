@@ -1,0 +1,7 @@
+group 'ch.collen.docs'
+version '0.0.1-SNAPSHOT'
+
+task build(type:Exec) {
+    commandLine 'npm', 'install'
+//    args = ['install', '--registry', 'http://nexus.zas.admin.ch/repository/npm-public/']
+}

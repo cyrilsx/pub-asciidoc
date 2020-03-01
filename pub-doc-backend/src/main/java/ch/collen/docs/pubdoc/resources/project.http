@@ -1,0 +1,25 @@
+GET http://localhost:8080/api/project
+
+###
+
+POST http://localhost:8080/api/project
+Content-Type: application/json;charset=UTF-8
+
+{
+  "gitRepository": "http://intra.zas.admin.ch/bitbucket/scm/~coc/zascii-webdoc.git",
+  "projectName": "test-doc1",
+  "pathToDocumentation": "zascii-doc-backend/src/test/resources/adoc/"
+}
+
+###
+
+POST http://localhost:8080/api/project/sync
+Content-Type: application/json;charset=UTF-8
+
+{
+  "gitRepository": "http://intra.zas.admin.ch/bitbucket/scm/~coc/zascii-webdoc.git",
+  "projectName": "test-doc1",
+  "pathToDocumentation": "zascii-doc-backend/src/test/resources/adoc/"
+}
+
+###

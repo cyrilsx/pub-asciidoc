@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'pub-doc'
+include 'pub-doc-frontend'
+include 'pub-doc-backend'
+
+

@@ -1,0 +1,17 @@
+ version: '3'
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: pubdoc
+      MONGO_INITDB_ROOT_PASSWORD: pubdoc
+  zasciidoc:
+    image:
+    environment:
+
+    ports:
+      - 8080:8080
+    links:
+      - mongo

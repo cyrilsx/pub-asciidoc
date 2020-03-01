@@ -1,0 +1,4 @@
+:lang: fr
+= AsciiDoc Test page 2
+Whjouaouaha
+version 1.0, février 2012: Commentaire de version avec ou sans marqueur Git.

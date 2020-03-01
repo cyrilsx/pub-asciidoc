@@ -1,0 +1,14 @@
+debug: true
+spring:
+  data:
+    mongodb:
+      host: localhost
+#      username: zasciidoc
+#      password: zasciidoc
+      database: zasciidoc
+#      authentication-database: zasciidoc
+    rest:
+      base-path: /api
+zasdoc:
+  output-path:  E:\Temp\ascii-webdoc\
+  repo-path: E:\Temp\ascii-repo\
