@@ -1,0 +1,10 @@
+// this comment line is ignored
+= Document Title
+Cyril COLLEN <cyril@collen.ch>
+:description: The document's description.
+:sectanchors:
+:url-repo: https://github.com/cyrilsx/pub-asciidoc
+
+== Sample from wikipedia
+AsciiDoc is a human-readable document format, semantically equivalent to DocBook XML, but using plain-text mark-up conventions. AsciiDoc documents can be created using any text editor and read “as-is”, or rendered to HTML or any other format supported by a DocBook tool-chain, i.e. PDF, TeX, Unix manpages, e-books, slide presentations, etc.[1] Common file extensions for AsciiDoc files are txt (as encouraged by AsciiDoc's creator) and adoc.[2][3]
+
